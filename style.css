@@ -1,0 +1,320 @@
+/* Main Body */
+
+body{
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.main{
+    position: relative;
+}
+
+
+.main img.background{
+    width: 100%;
+    height: 700px;
+}
+/* For first icon and text */
+.main .header{
+    position: absolute;
+    top: 10px;
+    left: 20%;
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+.main .header img{
+    width: 40px;
+}
+.main .header ul{
+    display: flex;
+}
+.main .header li{
+    list-style: none;
+    padding-left: 20px;
+}
+.main .header li a{
+    color: rgb(231, 231, 231);
+    font-style: italic;
+}
+
+/* Main Text Middle of first page */
+
+.main .text-losangeles {
+    position: absolute;
+    top: 80px;
+    left: 30%;
+    width: 44%;
+    z-index: 1;
+}
+.main .mountain-left {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 58%;
+    z-index: 2;
+}
+
+.main .mountain-right {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 61%;
+    z-index: 2;
+}
+
+/* First Page Bottom Page */
+
+.bottom .footer {
+        position: absolute;
+        bottom: 3%;
+        left: 20%;
+        width: 60%;
+        display: flex;
+        justify-content: space-between;
+}
+.bottom .footer img{
+        width: 140px;
+}
+.bottom .footer ul{
+        display: flex;
+}
+.bottom .footer li{
+        list-style: none;
+        padding-left: 20px;
+}
+.bottom .footer li a{
+        color: rgb(70, 66, 66);
+        font-style: italic;
+}
+
+/* Second Page */
+
+.second-main img.second-background{
+    width: 100%;
+    top: 78px;
+    position: relative;
+}
+
+.second-main .second-head img {
+    width: 16%;
+    margin-top: 40px;
+
+}
+
+.second-main .second-head {
+position: absolute;
+top: 110%;
+left: 20%;
+color: gray;
+}
+
+/* Second Page Bottom Part */
+.second-bottom{
+    height: 120px;
+    opacity: 80%;
+    display: flex;       
+}
+.second-main .second-bottom {    
+    width: 60%;    
+    top: 17%;
+    position: absolute;
+    left: 25%;
+}
+.second-main .second-bottom img {
+    padding-left: 5px;
+}
+.second-bg{
+    position: absolute;
+    top: 180%;
+    height: 160px;
+    width: 100%;
+    opacity: 80%;
+    background-color: black;
+}
+
+/* For Third page */
+
+.third-head{
+    width:18%;
+    left: 15%;
+    top: 95px;
+    position: relative;
+}
+.third-main {    
+    display: flex;
+    padding: 18px;   
+}
+.third-main p{
+    top: 210%;
+    left: 37%;
+    position: absolute;
+    font-family: Arial, sans-serif;
+    color: gray;
+}
+
+.mount{
+    position: relative;
+    margin-top: 100px;
+    background-color:#414F6A ;
+    font-family: Arial, sans-serif;
+    width: 100%;
+    height: 30px;
+}
+.mount ul {
+    display: flex;
+}
+.mount li {
+    position: relative;
+    list-style: none;
+    left: 20%;
+    padding-left: 20px;
+    padding-top: 7px;
+
+}
+.mount li a {
+    color: gray;    
+}
+.mount li a:hover{
+    border: 4px solid;
+    color: white;
+}
+
+.third-main .mount ul{    
+    display: flex;  
+}
+
+.third-main .mount ul{
+    margin-top: -168px;
+
+}
+
+.third-main .mount li {
+    list-style: none;
+    padding-left: 20px;    
+     
+}
+.third-main .mount li a {    
+    color: gray;
+    
+}
+
+/* For last Page Image */
+
+.last-main img.last-bg {
+    height: 550px;
+    width: 100%;
+    position: relative;
+}
+
+/* Table */
+.last-main .table {
+    left: 12%;
+    height: 160px;
+    width: 250px;
+    position: absolute;
+    top: 240%;
+    background-color: rgb(245, 241, 241);
+    opacity: 70%;
+    padding: 30px;
+}
+.last-main .sch {
+    font-family: Arial, sans-serif;
+    color: rgb(106, 106, 112);
+    font-size: 30px;
+}
+
+.last-main table tr {
+    line-height: 1.5;
+    font-size: 16px;
+    color: gray;
+}
+.last-main .table table tr td {
+    padding-left: 15px;
+}
+
+/* Last Bottom Design */
+footer .last-footer {
+    position: relative;   
+    width: 100%;
+    height: 35px;
+    background-color: #414F6A;
+    margin-top: -20px;
+    padding: 10px;
+}
+footer .last-footer img{
+    width: 100px;
+    left: 20%;
+    top: 18px;
+    display: flex;
+    position: absolute;
+    justify-content: space-around;
+    opacity: 70%;
+}
+
+footer .last-footer p {
+    color: rgb(126, 116, 116);
+    font-style: italic;
+    position: absolute;
+    left: 60%;
+}
+
+
+@media only screen and (max-width: 360px) {
+    .footer {
+        margin-bottom: -36%;
+        font-size: 12px;
+        margin-left: 0px;
+    }
+
+    .main .text-losangeles{
+        margin-left: auto;
+        max-width: auto;
+        top : 35%;
+    }
+
+    .second-bg{
+        top: 141%;
+        height: 12%;
+    }
+    .second-bg .second-bottom {
+        height: 35%;
+    }
+
+    .second-main .second-head p {
+        font-size: 11px;
+        margin-top: 1%;
+    }
+    .second-main .second-head img{
+        width: 23%;
+        margin-top: 87px;
+    }
+
+    .third-main p {
+        top: 117%;
+        font-size: 11px;
+        margin-top: 68%;
+    }
+    .table{
+        margin-top: -90%;
+        font-size: 8px;
+        height: 70px;
+        width: 165px;
+        margin-left: -9%;
+    }
+    .table .sch {
+        font-size: 20px;
+    }
+    .last-main .table table tr td{
+        font-size: 12px;
+        padding-left: 41px;
+    }
+    .last-footer{
+        top: 17%;
+        margin-left: -21px;        
+    }
+    .last-footer p {
+        font-size: 7px;
+    }
+      
+};
